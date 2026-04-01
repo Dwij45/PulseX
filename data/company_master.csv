@@ -1,0 +1,10 @@
+symbol,full_name,sector,nse_symbol
+INFY,Infosys Ltd,IT,INFY.NS
+TCS,Tata Consultancy Services,IT,TCS.NS
+WIPRO,Wipro Ltd,IT,WIPRO.NS
+HCLTECH,HCL Technologies,IT,HCLTECH.NS
+TECHM,Tech Mahindra,IT,TECHM.NS
+HDFCBANK,HDFC Bank,FINTECH,HDFCBANK.NS
+PAYTM,One97 Communications,FINTECH,PAYTM.NS
+RELIANCE,Reliance Industries,CONGLOMERATE,RELIANCE.NS
+^NSEI,Nifty 50,BENCHMARK,^NSEI
