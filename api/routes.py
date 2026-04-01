@@ -57,7 +57,7 @@ def safe_float(val, decimals=2):
 # ── Health ────────────────────────────────────────────────────────────────────
 @router.get("/", tags=["Health"])
 def root():
-    return {"status": "ok", "message": "JarNox Stock Intelligence API"}
+    return {"status": "ok", "message": "Pulse Stock Intelligence API"}
 
 
 # ── Companies ─────────────────────────────────────────────────────────────────

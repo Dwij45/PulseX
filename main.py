@@ -30,7 +30,7 @@ from pipeline.scheduler import start_scheduler, run_pipeline
 async def lifespan(app: FastAPI):
     # ── STARTUP ───────────────────────────────────────────────────────────────
     print("\n" + "="*50)
-    print("  JarNox Stock Intelligence Dashboard")
+    print("  Pulse Stock Intelligence Dashboard")
     print("="*50)
 
     # 1. Ensure DB tables exist
@@ -64,8 +64,8 @@ async def lifespan(app: FastAPI):
 
 # ── App ───────────────────────────────────────────────────────────────────────
 app = FastAPI(
-    title="JarNox — Stock Intelligence Dashboard",
-    description="NSE stock data pipeline with 10 technical indicators. Built for JarNox Internship.",
+    title="Pulse — Stock Intelligence Dashboard",
+    description="NSE stock data pipeline with 10 technical indicators. Built for Pulse Internship.",
     version="1.0.0",
     lifespan=lifespan,
 )
